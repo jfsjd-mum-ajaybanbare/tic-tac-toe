@@ -1,0 +1,45 @@
+/* Styling the whole page*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  /* styling the container division*/
+  .container {
+    
+    display: flex;  /*flex display */
+    background: #fff; /* background color change */
+    align-content: center;  /* adding content to center */
+    justify-content: center; 
+    flex-direction: column;  /* flex direction in column*/
+    min-width: 700px;  /* min width set to 700px*/
+    min-height: 500px;  /* min height set to 500px*/
+    border-radius: 5%;  /* border radius set to 5%*/
+    margin: auto;
+  }
+  
+  table {
+    border-collapse: collapse; /* making common border */
+    margin: auto;
+  }
+  
+  td {
+    background-color: #666;  
+    border: 5px solid white;  /* background color change */
+    font-size: 80px;       /* font size changed */
+    color: #fff;          /* text color */
+    border-radius: 10%;      /* border radius set to 5%*/
+  }
+  
+  #player {
+    padding: 1rem;  /* padding */
+  }
+  
+  body {
+    display: flex;
+    background: #eee url('https://source.unsplash.com/1600x900/?nature') no-repeat 
+      center center/cover;  /* background image*/
+    height: 100vh;  /* height */
+    width: 100%;   /* width */
+    overflow: hidden;
+  }
